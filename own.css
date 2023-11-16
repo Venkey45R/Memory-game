@@ -1,0 +1,335 @@
+body{
+	background-color: rgba(17, 24, 39, 1.0);
+	margin: 0px 250px;
+	font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.name{
+	color: white;
+	font-size: 0.700em;	
+}
+h2{
+	color: white;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+.dev{
+	margin-top: -40px;
+}
+.dev h3{
+	color: white;
+	font-size: 22px;
+}
+
+.box{
+	width: 900px;
+	height: 400px;
+	background-color: rgba(31, 41, 55, 1.0);
+	border-radius: 5px;
+}
+.box h2{
+	color: royalblue;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+.box h3{
+	padding-left: 40px;
+	color: white;
+	margin-top: -40px;
+}
+.box p{
+	padding-left: 40px;
+	color: white;
+	line-height: 1.6;
+}
+.number{
+	margin-left: 110px;
+	margin-top: -40px;
+	color: white;
+}
+.em{
+	margin-left: 320px;
+	margin-top: -40px;
+	color: white;
+}
+
+.phone{
+	padding-left: 40px;
+	color: white;
+	font-size: 18px;
+}
+.mail{
+	padding-left: 40px;
+	color: white;
+	font-size: 18px;
+	margin-left: 210px;
+	margin-top: -40px;
+}
+img{
+	width: 140px;
+	height: 240px;
+	border-radius: 15px;
+	margin-left: 700px;
+	margin-top: -170px;
+	opacity: 2.5;
+}
+.content{
+	width: 500px;
+
+}
+.phone{
+	padding-top: 50px;
+	display: inline-flex;
+}
+.img{
+	margin-top: -70px;
+}
+.icons{
+	position: relative;
+	top: -30px;
+}
+.icons i{
+	margin-top: 90px;
+	padding-left: 50px;
+}
+.icons a{
+	text-decoration: none;
+	display: inline-flex;
+	color: white;
+}
+.tech{
+	display: inline-flex;
+	margin-top: -100px;
+}
+.html{
+	color: rgba(255, 255, 255, 1.0);
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	padding: 8px 15px;
+	margin-top: -10px;
+	margin-left: 90px;
+}
+.css{
+	padding: 8px 15px;
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1.0);
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.python{
+	padding: 8px 15px;
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1.0);
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.tail{
+	padding: 10px 18px;
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1.0);
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.tm{
+	padding: 10px 20px;
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1.0);
+	margin-top: -10px;
+	margin-left: 90px;
+}
+.gl{
+	padding: 10px 20px;
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1.0);
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.lead{
+	padding: 8px 16px;
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1.0);
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.res{
+	padding: 8px 16px;
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1.0);
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.passion{
+	padding: 8px 16px;
+	background-color: rgba(197, 198, 208, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 1.0);
+	margin-top: -10px;
+	margin-left: 20px;	
+}
+.skill{
+	display: inline-flex;
+	margin-top: -100px;
+}
+.edu{
+	margin-top: -20px;
+}
+.edu p{
+	color: white;
+}
+.school{
+	position: relative;
+	left: 110px;
+	top: -40px;
+}
+.bor{
+	padding: 10px;
+	border-right: 1px dotted gray;
+}
+.copy{
+	background-color: rgba(197, 198, 208, 0.2);
+	margin-left: -300px;
+	padding-left: 300px;
+	width: 135.5%;
+	height: 60px;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 18px;
+}	
+
+@media (max-width:550px){
+	body{
+		margin:10px;
+	}
+	.name h1{
+		font-size: 16px;
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+	.box{
+		width: 380px;
+		height: 630px;
+		margin-left: 30px;
+	}
+	.dev h3{
+		margin-top: px;
+		font-size: 14px;
+	}
+	.jun h2{
+		padding-top: 280px;
+		margin-bottom: 20px;
+		margin-top: 30px;
+		font-size: 14px;
+	}
+	.img{
+		margin-left: -650px;
+		margin-top: -300px;
+	}
+	.mail{
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+	.em{
+		margin-left: 110px;
+	}
+	.cont{
+		margin-top: -50px;
+	}
+	.fa-brands{
+		width: 20px;
+		height: 20px;
+		margin-left: -5px;
+	}
+	.icons{
+		margin-top: 200px;
+	}
+	.iuse{
+		font-size: 14px;
+		margin-left: 20px;
+	}
+	.content{
+		width: 300px;
+	}
+	.html{
+		padding: 6px 6px;
+		margin: 10px;
+		margin-left: 60px;
+	}
+	.css{
+		padding: 8px 8px;
+		margin: 10px;
+		margin-left: 20px;
+	}
+	.python{
+		padding: 6px 6px;
+		margin: 10px;
+		margin-left: 20px;
+	}
+	.c{
+		padding: 8px 6px;
+		margin: 10px;
+		margin-left: 20px;
+	}
+	.ski{
+		font-size: 14px;
+		margin-left: 20px;
+	}
+	.tm{
+		padding: 8px 8px;
+		margin: 70px 0px;
+		margin-left: 60px;
+	}
+	.gl{
+		padding: 6px 6px;
+		margin: 70px 0px;
+		margin-left: 20px;
+	}
+	.lead{
+		padding: 10px 10px;
+		margin: 70px 0px;
+		margin-left: 20px;
+	}
+	.res{
+		padding: 10px 10px;
+		margin: 70px 0px;
+		margin-left: 20px;
+	}
+	.passion{
+		padding: 10px 10px;
+		margin: 10px;
+		margin-left: -375px;
+	}
+	.pas{
+		margin-top: 180px;
+	}
+	.cat{
+		margin-left: 30px;
+	}
+	.edu p{
+		margin-left: 30px;
+	}
+	.th{
+		margin-left: 85px;
+		margin-top: 25px;
+	}
+	.copy p{
+		display: none;
+	}
+	.copy{
+		background-color: rgba(17, 24, 39, 1.0);
+		display: ;
+	}
+}
